@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid black; */
+}
+
+body {
+  font-family: sans-serif;
+  width: 880px;
+  margin: auto;
+  line-height: 1.4;
+  padding: 20px 50px 100px 50px;
+  border-left: 2px solid rgb(236, 236, 236);
+  border-right: 2px solid rgb(236, 236, 236);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.information {
+  display: flex;
+  gap: 50px;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.tr {
+  font-weight: bold;
+}
+
+h1 {
+  color: #0e2452;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 17px;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+}
+
+p {
+  font-size: 14px;
+}
+
+.flex-item {
+  display: flex;
+  gap: 150px;
+  justify-content: start;
+  border-bottom: 2px solid rgb(236, 236, 236);
+  padding: 5px;
+}
+
+.unorder-list {
+  padding-left: 20px;
+}
+
+.muc-tieu-p {
+  padding: 27px 0px 35px 0px;
+}
+
+.padding-item {
+  padding: 20px 0px 50px 0px;
+}
+
+.rl {
+  flex-basis: 150px;
+  flex-shrink: 0;
+}
+
+.flex-item ul {
+  margin-left: 10px;
+  list-style-type: "- ";
+}
+
+.so-thich,
+.du-an {
+  padding: 15px 0px 30px 0px;
+}
+
+.du-an ul {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+ol {
+  padding: 20px 0px 10px 0px;
+  border-bottom: 2px solid rgb(236, 236, 236);
+  font-size: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+a:link,
+a:visited {
+  text-decoration: 0;
+  color: rgb(21, 0, 255);
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+a:hover,
+a:active {
+  color: blueviolet;
+}
